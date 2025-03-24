@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Motus</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">Jeu Motus</h1>
+    <p>Devinez le mot !</p>
+    <button onclick="resetGame()">Nouvelle Partie</button>
+    <form id="guessForm">
+      <input type="text" id="guessInput" maxlength="6" required />
+      <button type="submit">Valider</button>
+    </form>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+#title {
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #4ed8ec;
+}
+
+#guessInput {
+  padding: 10px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.letter {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.correct {
+  background-color: green;
+  color: white;
+}
+.present {
+  background-color: yellow;
+  color: black;
+}
+.absent {
+  background-color: red;
+  color: white;
+}

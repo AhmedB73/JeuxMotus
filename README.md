@@ -1,1 +1,1 @@
-git add README.md
+Dans ce projet vous allez trouver le jeux motus
